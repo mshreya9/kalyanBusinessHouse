@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        kbh: {
+          black: '#000000',
+          pink: '#FBEEE6',  // Updated to the correct color from your logo
+          white: '#FFFFFF',
+        }
       },
     },
   },
