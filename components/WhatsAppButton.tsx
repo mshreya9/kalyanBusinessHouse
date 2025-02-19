@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion'
 
 const WhatsAppButton = () => {
-  // Replace with your WhatsApp number
   const whatsappNumber = "917073135654"
   const message = encodeURIComponent("Thank you for contacting Kalyan Business House. Please let us know how we can help you.")
 

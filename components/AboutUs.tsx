@@ -8,26 +8,26 @@ const AboutUs = () => {
     {
       title: "Our Legacy",
       description: "Founded with a vision to provide quality construction materials, Kalyan Business House has been serving customers with trust and excellence.",
-      icon: "\u{1F3DB}",  // Classical building
+      icon: "\u{1F3DB}",
       image: "/about/legacy.jpg"
     },
     {
       title: "Our Mission",
       description: "To deliver premium construction materials while ensuring customer satisfaction through quality products and exceptional service.",
-      icon: "\u{1F3AF}",  // Target/Dartboard
+      icon: "\u{1F3AF}",
       image: "/about/mission.jpg"
     },
     {
       title: "Why Choose Us",
       description: "With years of expertise, we offer a comprehensive range of construction materials from trusted brands at competitive prices.",
-      icon: "\u{2705}",   // Sparkles
+      icon: "\u{2705}",
       image: "/about/why-us.jpg"
     },
     {
       title: "Quality Assurance",
       description: "We maintain strict quality standards across our product range, partnering with leading manufacturers in the industry.",
-      icon: "\u{2B50}",   // Star
-      image: "/about/quality.jpg"
+      icon: "\u{2B50}",
+      image: "/about/quality.jpeg"
     }
   ];
 
@@ -44,7 +44,7 @@ const AboutUs = () => {
             About Us
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Your trusted partner in construction materials since 2024
+            Your trusted partner in construction materials
           </p>
         </motion.div>
 
