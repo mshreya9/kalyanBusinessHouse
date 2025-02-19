@@ -15,7 +15,7 @@ const AboutUs = () => {
       title: "Our Mission",
       description: "To deliver premium construction materials while ensuring customer satisfaction through quality products and exceptional service.",
       icon: "\u{1F3AF}",
-      image: "/about/mission.jpg"
+      image: "/about/why-us.jpg"
     },
     {
       title: "Why Choose Us",

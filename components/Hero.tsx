@@ -26,7 +26,7 @@ const Hero = () => {
           
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-gray-700 max-w-2xl mb-12">
-            From foundations to finishing touches, we are Kota's trusted source for quality construction materials.
+            From foundations to finishing touches, we are Kota&apos;s trusted source for quality construction materials.
           </p>
           
           {/* CTA Button */}
