@@ -44,11 +44,14 @@ const ProductCard = ({ title, description, image, details }: ProductCard) => {
   return (
     <motion.div 
       className="bg-white rounded-xl shadow-md overflow-hidden"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
       whileHover={{ 
         scale: 1.05,
         boxShadow: "0px 20px 25px rgba(0,0,0,0.15)"
       }}
-      transition={{ duration: 0.3 }}
     >
       <div className="relative h-64">
         <Image
@@ -78,13 +81,22 @@ const Products = () => {
   return (
     <section id="products" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-serif text-kbh-black text-center mb-12">
+        <motion.h2 
+          className="text-3xl md:text-4xl font-serif text-kbh-black text-center mb-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
           Our Products
-        </h2>
+        </motion.h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {products.map((product, index) => (
-            <ProductCard key={index} {...product} />
+            <ProductCard 
+              key={index} 
+              {...product} 
+            />
           ))}
         </div>
       </div>
